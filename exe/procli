@@ -2,4 +2,4 @@
 
 require 'procli'
 
-Procli::Cli.start(ARGV)
+Procli::Cli::Main.start(ARGV)
