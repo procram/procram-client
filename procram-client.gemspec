@@ -1,16 +1,16 @@
 
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "procli/version"
+require "procram/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "procli"
-  spec.version       = Procli::VERSION
+  spec.name          = "procram-client"
+  spec.version       = Procram::VERSION
   spec.authors       = ["Xianghu Zhao"]
   spec.email         = ["xianghuzhao@gmail.com"]
 
-  spec.summary       = %q{Procram client cli}
-  spec.description   = %q{Command line client for procram.}
+  spec.summary       = %q{Procram client api and cli}
+  spec.description   = %q{Api and command line client for procram.}
   spec.homepage      = "https://procram.org/"
   spec.license       = "MIT"
 
@@ -20,8 +20,8 @@ Gem::Specification.new do |spec|
     spec.metadata["allowed_push_host"] = "TODO: Set to 'http://mygemserver.com'"
 
     spec.metadata["homepage_uri"] = spec.homepage
-    spec.metadata["source_code_uri"] = "https://git.zhaoxh.cn/procram/procli"
-    spec.metadata["changelog_uri"] = "https://git.zhaoxh.cn/procram/procram/src/master/CHANGELOG.md"
+    spec.metadata["source_code_uri"] = "https://git.zhaoxh.cn/procram/procram-client"
+    spec.metadata["changelog_uri"] = "https://git.zhaoxh.cn/procram/procram-client/src/master/CHANGELOG.md"
   else
     raise "RubyGems 2.0 or newer is required to protect against " \
       "public gem pushes."

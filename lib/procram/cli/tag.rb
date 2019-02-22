@@ -1,7 +1,7 @@
 require "thor"
 require "http"
 
-module Procli
+module Procram
   module Cli
     class Tag < Thor
       option :limit, type: :numeric, aliases: :l

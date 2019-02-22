@@ -1,5 +1,5 @@
 #!/usr/bin/env ruby
 
-require 'procli'
+require 'procram'
 
-Procli::Cli::Main.start(ARGV)
+Procram::Cli::Main.start(ARGV)

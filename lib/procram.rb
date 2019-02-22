@@ -1,7 +1,7 @@
-require "procli/version"
-require "procli/cli"
+require "procram/version"
+require "procram/cli"
 
-module Procli
+module Procram
   class Error < StandardError; end
   # Your code goes here...
 end

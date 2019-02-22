@@ -1,8 +1,8 @@
 require "thor"
 
-require "procli/cli/tag"
+require "procram/cli/tag"
 
-module Procli
+module Procram
   module Cli
     class Main < Thor
       class_option :endpoint, type: :string, aliases: :e,
