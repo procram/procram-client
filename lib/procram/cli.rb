@@ -6,7 +6,7 @@ module Procram
   module Cli
     class Main < Thor
       class_option :endpoint, type: :string, aliases: :e,
-        default: ENV['PROCRAM_API_URL'] || 'http://localhost:8080/'
+        default: ENV['PROCRAM_API_URL'] || 'https://api.procram.org/'
 
       desc "hello NAME", "say hello to NAME"
       def hello(name)
